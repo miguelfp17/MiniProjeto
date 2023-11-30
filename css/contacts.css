@@ -3,7 +3,6 @@ body {
     font-family: 'IBM Plex Mono', monospace;
     background-color: black;
 }
-/* Add this to your existing CSS file or create a new one */
 
 #contact-form {
     max-width: 600px;
@@ -20,6 +19,7 @@ body {
 #contact-form h2 {
     text-align: center;
     font-size: 1.5em;
+    font-weight: bold;
 }
 
 form {
@@ -31,6 +31,7 @@ label {
     display: block;
     font-size: 1.2em;
     margin-bottom: 5px;
+    font-weight: bolder;
 }
 
 input,

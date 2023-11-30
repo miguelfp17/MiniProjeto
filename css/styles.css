@@ -30,10 +30,11 @@ body {
 #foto_perfil img {
     display: block;
     margin: 0 auto;
-    max-width: 100%; /* Set max-width to ensure the image is responsive */
-    height: auto; /* Maintain the aspect ratio */
+    max-width: 100%;
+    height: auto; 
     margin-top: 30px;
     margin-right: 25%;
+    border-radius: 100%;
 }
 
 #botao_contacto {
@@ -52,12 +53,16 @@ body {
     background-color: #66D9EF; 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
     }
-
+    #conteudo_principal{
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
     .nav-links {
         margin-top: 10px;
     }
