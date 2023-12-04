@@ -35,6 +35,8 @@ body {
     margin-top: 30px;
     margin-right: 25%;
     border-radius: 100%;
+    border: 15px groove #333;
+
 }
 
 #botao_contacto {
