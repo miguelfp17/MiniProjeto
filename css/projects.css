@@ -1,0 +1,36 @@
+
+
+#conteudo_principal {
+    display: grid;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.project {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.carousel {
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+}
+
+.slide {
+    min-width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+input[name="slide"] {
+    display: none;
+}
+
+#project1-slide1:checked ~ .slides { transform: translateX(0); }
+#project1-slide2:checked ~ .slides { transform: translateX(-100%); }
+#project1-slide3:checked ~ .slides { transform: translateX(-200%); }
+
