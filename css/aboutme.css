@@ -64,3 +64,15 @@ body {
     line-height: 1.6;
     margin-bottom: 15px;
 }
+@media only screen and (max-width:1024px) {
+    body {
+        margin-top: 50px;
+    }
+    .conteudo h1 {
+        font-size: 60px;
+    }
+
+    .texto {
+        padding: 15px;
+    }
+}

@@ -56,16 +56,27 @@ body {
 }
 
 @media only screen and (max-width: 1024px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
+    body {
+        margin-top: 25px;
     }
-    #conteudo_principal{
+
+    #conteudo_principal {
         flex-direction: column;
-        align-items: flex-start;
-        
+        align-items: center; 
+        text-align: center;
     }
-    .nav-links {
-        margin-top: 10px;
+
+    #foto_perfil {
+        margin-top: 20px;
+    }
+
+    #foto_perfil img {
+        display: block;
+        margin: 0 auto; 
+        max-width: 100%;
+        height: auto;
+        border-radius: 50%;
+        border: 15px groove #333;
     }
 }
+

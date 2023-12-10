@@ -72,32 +72,49 @@ h2{
 .right ul li{
     line-height: 2;
 }
+.link{
+    color: white;
+    text-decoration: none;
+}
+.link:hover{
+     color:#66D9EF;
 
-@media only screen and (min-width:768) and (max-width:991px){
-    .conteudo_principal{
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .conteudo_principal {
         width: 95%;
         height: auto;
     }
-    h2{
+    h2 {
         font-size: 18px;
     }
 }
-@media screen and (max-width: 600px){
-    .main{
+
+@media only screen and (max-width: 991px) {
+    .conteudo_principal {
+        width: 95%;
+        height: auto;
+    }
+    h2 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main {
         flex-direction: column;
     }
-    .left, .right{
+    .left, .right {
         flex: none;
         width: 100%;
     }
-    .conteudo_principal{
+    .conteudo_principal {
         width: 95%;
         height: auto;
-
     }
-    h2{
-        font-size: 15pxf;
+    h2 {
+        font-size: 15px;
     }
-    
-    
 }
+
